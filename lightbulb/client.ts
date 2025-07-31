@@ -1,4 +1,4 @@
-// Someday I hope this code will be in pxt-jacdac.
+// There is a light-bulb client in pxt-jacdac. Not sure if we could simply switch to that.
 
 namespace fwdBase {
     /**
