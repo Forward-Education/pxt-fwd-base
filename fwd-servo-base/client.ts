@@ -23,7 +23,7 @@ namespace fwdBase {
 
         // block created in fwd-servo-positional
         setAngle(angle: number): void {
-            if(!this.enabled()) {
+            if (!this.enabled()) {
                 this.setEnabled(true)
             }
             super.setAngle(angle)
@@ -31,18 +31,8 @@ namespace fwdBase {
 
         // block created in fwd-servo-positional
         setAngleAndWait(angle: number): void {
-            let maxPauseDuration =
-                (super.responseSpeed() / 60) * 270 + 20 || 380
-            let degreesToMove = Math.abs(
-                this.getAngle() > angle
-                    ? this.getAngle() - angle
-                    : angle - this.getAngle()
-            )
             super.setAngle(angle)
-
-            // it takes maxPauseDuration seconds to move 270 degrees
-            // with degreesToMove as the second denominator, cross-multiply and divide to get the pause needed
-            basic.pause((maxPauseDuration * degreesToMove) / 270)
+            pause(1000)
         }
 
         // block created in fwd-servo-continuous
