@@ -12,7 +12,8 @@ namespace fwdBase {
 
         // block created in fwd-servo-positional / fwd-servo-continuous
         setEnabled(state: boolean): void {
-            return super.setEnabled(state)
+            super.setEnabled(state)
+            pause(1000) // need to allow time for the servo to actually enable
         }
 
         // block created in fwd-servo-positional
@@ -22,6 +23,9 @@ namespace fwdBase {
 
         // block created in fwd-servo-positional
         setAngle(angle: number): void {
+            if(!this.enabled()) {
+                this.setEnabled(true)
+            }
             super.setAngle(angle)
         }
 
