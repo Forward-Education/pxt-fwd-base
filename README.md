@@ -1,6 +1,6 @@
 # The Base Extension
 
-The purpose of this repo is to host dependencies of modules in pxt-fwd-modules. It's easier to manage versioning when you avoid having a module be dependent on something in the same repo.
+The purpose of this repo is to host dependencies of modules in pxt-fwd-modules. It's easier to manage versioning when you avoid having a module be dependent on something in the same repo. Refer to README.md in pxt-forward-modules for a full breakdown of the Forward Education extension ecosystem.
 
 Nothing in this repo should have blocks. It's all behind the scenes.
 
