@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), but with 
 
 ### Changed
 
--   ...
+-   Bugfix for servo base related to setEnabled() override
 
 ### Removed
 

@@ -11,7 +11,8 @@ namespace fwdBase {
         }
 
         // block created in fwd-servo-positional / fwd-servo-continuous
-        setEnabled(state: boolean): void {
+        // can't override this method or it will be called during ServoClient.setAngle()
+        setEnabledFwd(state: boolean): void {
             super.setEnabled(state)
             pause(1000) // need to allow time for the servo to actually enable
         }
