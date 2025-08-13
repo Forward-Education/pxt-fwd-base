@@ -4,11 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), but with change categorization simplified to added, changed, or removed.
 
-## [Unreleased]
-
-### Added
-
--   ...
+## [1.0.12] - 08/13/2025
 
 ### Changed
 
@@ -18,4 +14,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), but with 
 
 -   Removed update-dependency script, just use vs code search and replace instead
 
-[unreleased]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.0.11...HEAD
+[unreleased]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.0.11...v1.0.12
