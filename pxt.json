@@ -5,13 +5,10 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "jacdac": "github:jacdac/pxt-jacdac#v1.9.38"
+        "jacdac": "github:jacdac/pxt-jacdac#v1.9.40"
     },
     "files": [
-        "common/buttons.ts",
-        "common/lights.ts",
-        "common/motors.ts",
-        "common/sensors.ts",
+        "common/drawers.ts",
         "common/enums.ts"
     ],
     "testFiles": [],
