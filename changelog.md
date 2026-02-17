@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), but witho
 
 - Bugfix for servo base method name change
 - Deprecated servo isEnabled block
+- Updated pxt-jacdac to 1.9.41 from 1.9.40
 
 ## [1.0.12] - 08/13/2025
 
