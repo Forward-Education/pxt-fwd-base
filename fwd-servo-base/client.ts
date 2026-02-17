@@ -5,18 +5,6 @@ namespace fwdBase {
             super(role)
         }
 
-        // block created in fwd-servo-positional / fwd-servo-continuous
-        isEnabled(): boolean {
-            return super.enabled()
-        }
-
-        // block created in fwd-servo-positional / fwd-servo-continuous
-        // can't override this method or it will be called during ServoClient.setAngle()
-        setEnabledFwd(state: boolean): void {
-            super.setEnabled(state)
-            pause(1000) // need to allow time for the servo to actually enable
-        }
-
         // block created in fwd-servo-positional
         getAngle(): number {
             return super.angle()
@@ -52,6 +40,12 @@ namespace fwdBase {
             this.setAngle(
                 Math.map(speed, -100, 100, this.minAngle(), this.maxAngle()),
             )
+        }
+
+        // can't override this method or it will be called during ServoClient.setAngle()
+        setEnabledFwd(state: boolean): void {
+            super.setEnabled(state)
+            pause(1000) // need to allow time for the servo to actually enable
         }
     }
 
