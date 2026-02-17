@@ -25,7 +25,7 @@ namespace fwdBase {
         // block created in fwd-servo-positional
         setAngle(angle: number): void {
             if (!this.enabled()) {
-                this.setEnabled(true)
+                this.setEnabledFwd(true)
             }
             super.setAngle(angle)
         }
@@ -43,14 +43,14 @@ namespace fwdBase {
                 this.minAngle(),
                 this.maxAngle(),
                 -100,
-                100
+                100,
             )
         }
 
         // block created in fwd-servo-continuous
         setSpeed(speed: number): void {
             this.setAngle(
-                Math.map(speed, -100, 100, this.minAngle(), this.maxAngle())
+                Math.map(speed, -100, 100, this.minAngle(), this.maxAngle()),
             )
         }
     }
