@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), but without change categorization.
 
-## [1.1.0] - 08/13/2025
+## [1.1.0] - 02/17/2026
 
 - Bugfix for servo base method name change
 - Deprecated servo isEnabled block
