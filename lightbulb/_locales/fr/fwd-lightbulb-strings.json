@@ -1,0 +1,5 @@
+{
+    "fwdBase.LightsReg.Brightness": "Ratio en lecture-écriture u0.8 (uint8_t). Définit la luminosité du ruban.\nÀ `0`, l'alimentation du ruban est complètement coupée.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase|block": "fwdBase",
+    "{id:category}FwdBase": "FwdBase"
+}

@@ -1,0 +1,7 @@
+{
+    "fwdBase.LightbulbClient": "Steuert LED-Lichter",
+    "fwdBase.LightbulbClient.isOn": "Gibt wahr zurück, wenn die Helligkeit des Lichts nicht 0% beträgt.",
+    "fwdBase.LightbulbClient.setBrightness": "Gibt die Helligkeit der Glühbirne an. Null bedeutet vollständig aus und 0xffff bedeutet vollständig an.\nBei nicht dimmbaren Lichtern sollte jeder Wert außer Null auf 0xffff gesetzt werden.",
+    "fwdBase.LightsReg.Brightness": "Lese-/Schreib-Verhältnis u0.8 (uint8_t). Legt die Helligkeit des Streifens fest.\nBei `0` wird die Stromversorgung des Streifens vollständig abgeschaltet.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase.LightsRegPack.Brightness": "Pack-Format für 'brightness'-Daten."
+}

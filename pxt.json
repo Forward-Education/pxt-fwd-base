@@ -9,7 +9,10 @@
     },
     "files": [
         "common/drawers.ts",
-        "common/enums.ts"
+        "common/enums.ts",
+        "_locales/de/pxt-fwd-base-strings.json",
+        "_locales/es/pxt-fwd-base-strings.json",
+        "_locales/fr/pxt-fwd-base-strings.json"
     ],
     "testFiles": [],
     "public": true,

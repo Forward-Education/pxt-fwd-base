@@ -1,0 +1,7 @@
+{
+    "fwdBase.LightbulbClient": "Controla luces LED",
+    "fwdBase.LightbulbClient.isOn": "Devuelve verdadero si el brillo de la luz es distinto de 0%.",
+    "fwdBase.LightbulbClient.setBrightness": "Indica el brillo de la bombilla. Cero significa completamente apagada y 0xffff significa completamente encendida.\nEn luces no regulables, el valor se ajusta a 0xffff para cualquier valor distinto de cero.",
+    "fwdBase.LightsReg.Brightness": "Relación de lectura y escritura u0.8 (uint8_t). Establece la luminosidad de la tira.\nEn `0` la alimentación de la tira se apaga por completo.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase.LightsRegPack.Brightness": "Formato de empaquetado para los datos de 'brightness'."
+}

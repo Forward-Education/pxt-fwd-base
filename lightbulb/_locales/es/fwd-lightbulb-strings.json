@@ -1,0 +1,5 @@
+{
+    "fwdBase.LightsReg.Brightness": "Relación de lectura y escritura u0.8 (uint8_t). Establece la luminosidad de la tira.\nEn `0` la alimentación de la tira se apaga por completo.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase|block": "fwdBase",
+    "{id:category}FwdBase": "FwdBase"
+}

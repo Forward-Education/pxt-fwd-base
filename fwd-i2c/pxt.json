@@ -5,7 +5,10 @@
     "license": "MIT",
     "dependencies": {},
     "files": [
-        "constants.ts"
+        "constants.ts",
+        "_locales/de/fwd-i2c-strings.json",
+        "_locales/es/fwd-i2c-strings.json",
+        "_locales/fr/fwd-i2c-strings.json"
     ],
     "targetVersions": {
         "target": "7.0.61",

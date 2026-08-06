@@ -1,0 +1,5 @@
+{
+    "fwdBase.LightsReg.Brightness": "Lese-/Schreib-Verhältnis u0.8 (uint8_t). Legt die Helligkeit des Streifens fest.\nBei `0` wird die Stromversorgung des Streifens vollständig abgeschaltet.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase|block": "fwdBase",
+    "{id:category}FwdBase": "FwdBase"
+}

@@ -1,0 +1,7 @@
+{
+    "fwdBase.LightbulbClient": "Contrôle les lumières LED",
+    "fwdBase.LightbulbClient.isOn": "Renvoie vrai si la luminosité de la lumière est différente de 0 %.",
+    "fwdBase.LightbulbClient.setBrightness": "Indique la luminosité de l'ampoule. Zéro signifie complètement éteinte et 0xffff complètement allumée.\nPour les lumières non variables, toute valeur non nulle doit être ramenée à 0xffff.",
+    "fwdBase.LightsReg.Brightness": "Ratio en lecture-écriture u0.8 (uint8_t). Définit la luminosité du ruban.\nÀ `0`, l'alimentation du ruban est complètement coupée.\n* ```\nconst [brightness] = jdunpack<[number]>(buf, \"u0.8\")\n```",
+    "fwdBase.LightsRegPack.Brightness": "Format de compactage pour les données de « brightness »."
+}

@@ -9,7 +9,13 @@
     },
     "files": [
         "constants.ts",
-        "client.ts"
+        "client.ts",
+        "_locales/de/fwd-lightbulb-strings.json",
+        "_locales/de/fwd-lightbulb-jsdoc-strings.json",
+        "_locales/es/fwd-lightbulb-strings.json",
+        "_locales/es/fwd-lightbulb-jsdoc-strings.json",
+        "_locales/fr/fwd-lightbulb-strings.json",
+        "_locales/fr/fwd-lightbulb-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"

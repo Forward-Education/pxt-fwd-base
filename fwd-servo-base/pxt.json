@@ -9,7 +9,10 @@
         "jacdac-servo": "github:jacdac/pxt-jacdac/servo#v1.9.41"
     },
     "files": [
-        "client.ts"
+        "client.ts",
+        "_locales/de/fwd-servo-base-strings.json",
+        "_locales/es/fwd-servo-base-strings.json",
+        "_locales/fr/fwd-servo-base-strings.json"
     ],
     "testFiles": [
         "test.ts"

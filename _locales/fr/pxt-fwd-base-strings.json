@@ -1,0 +1,15 @@
+{
+    "fwdEnums.ClockwiseCounterclockwise.Clockwise|block": "↻",
+    "fwdEnums.ClockwiseCounterclockwise.Counterclockwise|block": "↺",
+    "fwdEnums.ForwardReverse.Forward|block": "avant",
+    "fwdEnums.ForwardReverse.Reverse|block": "arrière",
+    "fwdEnums.MotionStasis.Motion|block": "mouvement",
+    "fwdEnums.MotionStasis.Stasis|block": "immobilité",
+    "fwdEnums.OnOff.Off|block": "désactivé",
+    "fwdEnums.OnOff.On|block": "activé",
+    "fwdEnums.OverUnder.Over|block": "au-dessus de",
+    "fwdEnums.OverUnder.Under|block": "en dessous de",
+    "fwdEnums.RaisedLowered.Lowered|block": "abaissé",
+    "fwdEnums.RaisedLowered.Raised|block": "levé",
+    "{id:category}FwdEnums": "FwdEnums"
+}
