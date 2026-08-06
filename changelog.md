@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), but without change categorization.
 
+## [1.1.4] - 08/06/2026
+
+- flipped voice ai and vision ai drawer names
+- added drawer translations
+
+## [1.1.3] - 08/06/2026
+
+- added locales folders
+
 ## [1.1.1/1.1.2] - 06/16/2026
 
 - added i2c constants for sharing by fwd-ai-vision and fwd-ai-voice
@@ -19,6 +28,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), but witho
 - Bugfix for servo base related to setEnabled() override
 - Removed update-dependency script, just use vs code search and replace instead
 
+[1.1.4]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.1.3...v1.1.4
+[1.1.3]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.1.2...v1.1.3
 [1.1.1/1.1.2]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.1.0...v1.1.2
 [1.1.0]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.0.12...v1.1.0
 [1.0.12]: https://github.com/Forward-Education/pxt-fwd-base/compare/v1.0.11...v1.0.12

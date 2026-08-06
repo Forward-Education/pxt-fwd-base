@@ -22,13 +22,13 @@ namespace fwdMotors {}
 //% weight=200
 namespace fwdLights {}
 
-//% block="AI Vision"
+//% block="Vision AI"
 //% color=#e7660b
 //% icon="\uf083"
 //% weight=199
 namespace fwdAiVision {}
 
-//% block="AI Voice"
+//% block="Voice AI"
 //% color=#1ABC9C
 //% icon="\uf130"
 //% weight=198

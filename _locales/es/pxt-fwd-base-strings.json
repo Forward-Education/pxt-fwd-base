@@ -1,4 +1,7 @@
 {
+    "fwdAiVision|block": "Visión IA",
+    "fwdAiVoice|block": "Voz IA",
+    "fwdButtons|block": "Botones",
     "fwdEnums.ClockwiseCounterclockwise.Clockwise|block": "↻",
     "fwdEnums.ClockwiseCounterclockwise.Counterclockwise|block": "↺",
     "fwdEnums.ForwardReverse.Forward|block": "adelante",
@@ -11,5 +14,8 @@
     "fwdEnums.OverUnder.Under|block": "por debajo de",
     "fwdEnums.RaisedLowered.Lowered|block": "bajado",
     "fwdEnums.RaisedLowered.Raised|block": "elevado",
+    "fwdLights|block": "Luces",
+    "fwdMotors|block": "Motores",
+    "fwdSensors|block": "Sensores",
     "{id:category}FwdEnums": "FwdEnums"
 }
